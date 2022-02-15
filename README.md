@@ -1,5 +1,5 @@
-# pdf2text
-An api that extract text from a pdf file.
+# Description
+pdf2text is an api that extract text from a pdf file.
 
 # Requirements
 Python 3.6+
