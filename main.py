@@ -11,6 +11,6 @@ def extract(file: UploadFile = File(...)):
     filename = str(uuid4())
     with open(filename,'wb') as buffer:
         copyfileobj (file.file, buffer)
-    text = extract_text(filename, "", [0])
+    text = extract_text(filename)
     remove(filename)
     return { 'text': text }
